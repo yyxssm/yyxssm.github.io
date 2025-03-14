@@ -10,5 +10,10 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
     {% endfor %}
   {% endif %}
+  
+  <!-- 访问统计地图 -->
+  <div id="clustrmap_container" style="margin-top: 20px; width: 250px; height: 250px;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=QNFlmuJpzSXj9NkwmKzwLwwkkn0TdnwbhW1_5pg2KHk"></script>
+  </div>
   </div>
 {% endif %}
