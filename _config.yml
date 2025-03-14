@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuxiang Yan"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "A PhD student at Fudan University, China. I'm interested in the intersection of AIGC and Embodied Intelligence."
+  bio              : 
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  googlescholar    : "https://scholar.google.com/citations?user=gf2p3aUAAAAJ&hl=zh-CN"
   email            : "yxyan22@m.fudan.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
