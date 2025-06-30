@@ -26,19 +26,65 @@ My research interest includes end-to-end embodied robotics and AIGC in autonomou
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024 Oral</div><img src='images\2024_05_PointSSC\PointSSC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[PointSSC: A Cooperative Vehicle-Infrastructure Point Cloud Benchmark for Semantic Scene Completion](https://ieeexplore.ieee.org/abstract/document/10610043/)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+**Yuxiang Yan**, Boda Liu, Jianfei Ai, Qinbu Li, Ru Wan, Jian Pu
+
+[**[Paper]**](https://ieeexplore.ieee.org/abstract/document/10610043/)    [**[Code]**](https://github.com/yyxssm/PointSSC)    [**[Video]**](https://www.youtube.com/watch?v=RZrXaJsEmyM)
+[![GitHub Stars](https://img.shields.io/github/stars/yyxssm/PointSSC?style=social)](https://github.com/yyxssm/PointSSC)
+[![GitHub Forks](https://img.shields.io/github/forks/yyxssm/PointSSC?style=social)](https://github.com/yyxssm/PointSSC)
+- Most existing Semantic Scene Completion (SSC) models focus on volumetric representations, which are memory-inefficient for large outdoor spaces. We introduce PointSSC, the first cooperative vehicle-infrastructure point cloud benchmark for SSC. These scenes exhibit long-range perception and minimal occlusion. We develop an automated annotation pipeline and propose a LiDAR-based baseline model. PointSSC provides a challenging testbed to drive advances in semantic point cloud completion for real-world navigation.
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/2025_06_Dark-ISP/Dark-ISP.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+Dark-ISP: Enhancing RAW Image Processing for Low-Light Object Detection
+
+
+Guo jiasheng\*, Xin Gao\*, **Yuxiang Yan**, Guanghao Li, Jian Pu 
+
+- Dark-ISP is a lightweight and self-adaptive Image Signal Processing (ISP) plugin designed to improve low-light object detection. Unlike previous methods that either use RAW-RGB images with information loss or complex frameworks, Dark-ISP processes Bayer RAW images directly in dark environments. Its key innovations include deconstructing conventional ISP pipelines into linear and nonlinear sub-modules optimized for task-driven losses, and a self-boosting strategy that enhances cooperation between sub-modules.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE T-AI</div><img src='images/2024_05_FusionMap/FusionMap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Constrained Gaussian Splatting via Implicit TSDF Hash Grid for Dense RGB-D SLAM**
+
+Guanghao Li, Qi Chen, Sijia Hu, **Yuxiang Yan**, Jian Pu
+
+- FusionMap is an advanced SLAM system that combines explicit 3DGS and implicit NeRF representations to improve surface reconstruction accuracy. By addressing the limitations of traditional 3DGS, FusionMap achieves up to 30 times faster processing and a 38% accuracy boost over conventional methods. This innovation sets new standards for real-time 3D mapping and localization, enabling next-generation applications in virtual environments, autonomous navigation, and dynamic scene reconstruction.
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition</div><img src='images/2023_12_EC_SLAM/EC_SLAM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EC-SLAM: Real-time Dense Neural RGB-D SLAM System with Effectively Constrained Global Bundle Adjustment](https://ui.adsabs.harvard.edu/abs/2024arXiv240413346L/abstract)
+
+Guanghao Li\*, Qi Chen\*, **Yuxiang Yan **, Jian Pu
+
+[**Project**](https://github.com/Lightingooo/EC-SLAM)
+[![GitHub Stars](https://img.shields.io/github/stars/Lightingooo/EC-SLAM?style=social)](https://github.com/Lightingooo/EC-SLAM)
+[![GitHub Forks](https://img.shields.io/github/forks/Lightingooo/EC-SLAM?style=social)](https://github.com/Lightingooo/EC-SLAM)
+
+- EC-SLAM is a real-time dense RGB-D SLAM system that leverages Neural Radiance Fields (NeRF) for enhanced pose optimization, using sparse parametric encodings, TSDF, and a globally constrained Bundle Adjustment strategy to improve tracking accuracy and reconstruction performance in real-time.
+</div>
+</div>
+
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
