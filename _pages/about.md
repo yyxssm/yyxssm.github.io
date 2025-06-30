@@ -17,12 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interest includes end-to-end embodied robotics and AIGC in autonomous driving. I have published papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=gf2p3aUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> citations.
+My research interest includes embodied robotics and AIGC in autonomous driving. I have published papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=gf2p3aUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> citations.
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.06*: 🎉 **Dark-ISP** is accepted by **ICCV 2025**.
+- *2025.06*: 🎉 **FusionMap** is accepted by **IEEE Transactions on Artificial Intelligence**.
+- *2025.06*: 🎉 [EC-SLAM](https://ui.adsabs.harvard.edu/abs/2024arXiv240413346L/abstract) is accepted by **Pattern Recognition**.
+- *2025.06*: 🎉 **CasPoinTr** is accepted by **IROS 2025**.
 
 # 📝 Publications 
 
@@ -48,7 +50,7 @@ My research interest includes end-to-end embodied robotics and AIGC in autonomou
 <div class='paper-box-text' markdown="1">
 
 
-Dark-ISP: Enhancing RAW Image Processing for Low-Light Object Detection
+**Dark-ISP: Enhancing RAW Image Processing for Low-Light Object Detection**
 
 
 Guo jiasheng\*, Xin Gao\*, **Yuxiang Yan**, Guanghao Li, Jian Pu 
@@ -75,7 +77,7 @@ Guanghao Li, Qi Chen, Sijia Hu, **Yuxiang Yan**, Jian Pu
 
 [EC-SLAM: Real-time Dense Neural RGB-D SLAM System with Effectively Constrained Global Bundle Adjustment](https://ui.adsabs.harvard.edu/abs/2024arXiv240413346L/abstract)
 
-Guanghao Li\*, Qi Chen\*, **Yuxiang Yan **, Jian Pu
+Guanghao Li\*, Qi Chen\*, **Yuxiang Yan**, Jian Pu
 
 [**Project**](https://github.com/Lightingooo/EC-SLAM)
 [![GitHub Stars](https://img.shields.io/github/stars/Lightingooo/EC-SLAM?style=social)](https://github.com/Lightingooo/EC-SLAM)
@@ -85,6 +87,17 @@ Guanghao Li\*, Qi Chen\*, **Yuxiang Yan **, Jian Pu
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition</div><img src='images\2025_06_CasPoinTr\caspointr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CasPoinTr: Point Cloud Completion with Cascaded Networks and Knowledge Distillation**
+
+Yifan Yang, **Yuxiang Yan**, Boda Liu, Jian Pu
+
+- CasPoinTr completes highly incomplete real-world point clouds in two stages. First, Shape Reconstruction Module generates auxiliary information to guide missing-region prediction. Then, Fused Completion Module refines the output using knowledge distilled from a teacher model trained on dense clouds, improving global shape estimation and local detail recovery.
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
