@@ -88,7 +88,7 @@ Guanghao Li\*, Qi Chen\*, **Yuxiang Yan**, Jian Pu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Pattern Recognition</div><img src='images\2025_06_CasPoinTr\caspointr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025</div><img src='images\2025_06_CasPoinTr\caspointr.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **CasPoinTr: Point Cloud Completion with Cascaded Networks and Knowledge Distillation**
