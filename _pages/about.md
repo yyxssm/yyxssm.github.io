@@ -8,25 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-My research interest includes embodied robotics and AIGC in autonomous driving. I have published papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=gf2p3aUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> citations.
+My research interests include embodied robotics and AIGC in autonomous driving. I have published papers at top international AI conferences.
 
 
 # 🔥 News
+- *2026.10*: 🏅 I was recognized as a **NeurIPS 2026 Main Reviewer: Top Reviewer**.
+- *2026.09*: 🎉 Three of our papers have been accepted to **NeurIPS 2026**; congratulations to **Runhe**, **Yikai**, and **Xuetong**!
+- *2026.06*: 🏅 I was recognized as a **CVPR 2026 Outstanding Reviewer (Top 2%)**.
+- *2026.02*: 🎉 Two of our papers have been accepted to **CVPR 2026**; congratulations to **Hengyu** and **Junpeng**!
 - *2025.06*: 🎉 **Dark-ISP** is accepted by **ICCV 2025**.
 - *2025.06*: 🎉 **FusionMap** is accepted by **IEEE Transactions on Artificial Intelligence**.
 - *2025.06*: 🎉 [EC-SLAM](https://ui.adsabs.harvard.edu/abs/2024arXiv240413346L/abstract) is accepted by **Pattern Recognition**.
 - *2025.06*: 🎉 **CasPoinTr** is accepted by **IROS 2025**.
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/2025_OrderMind/OrderMind.png' alt="OrderMind framework for spatial-aware manipulation ordering" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Learning Spatial-Aware Manipulation Ordering](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f0b42291ddab77dcb2ef8a3488301b62-Abstract-Conference.html)
+
+**Yuxiang Yan**\*, Zhiyuan Zhou\*, Xin Gao, Guanghao Li, Shenglin Li, Jiaqi Chen, Qunyan Pu, Jian Pu
+
+[**[Paper]**](https://proceedings.neurips.cc/paper_files/paper/2025/file/f0b42291ddab77dcb2ef8a3488301b62-Paper-Conference.pdf)
+
+- OrderMind learns which object a robot should manipulate first in cluttered environments, where an improper order can cause collisions or block access. It combines spatial context understanding and temporal priority prediction to model both object-object and object-manipulator interactions. A spatial prior labeling strategy guides a vision-language model to generate training supervision. Evaluated on a Manipulation Ordering Benchmark with 163,222 samples and on real robots, OrderMind improves manipulation ordering accuracy and efficiency while supporting real-time inference.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024 Oral</div><img src='images\2024_05_PointSSC\PointSSC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -109,7 +120,7 @@ Yifan Yang, **Yuxiang Yan**, Boda Liu, Jian Pu
 
 # 👨‍💼 Academic Service
 - Journal Reviewer: RA-L, TIV, Cognitive Neurodynamics
-- Conference Reviewer: ICCV2025, ICME2025
+- Conference Reviewer: CVPR, ICCV, AAAI, NeurIPS, ICME
 - Teaching assistant: Embodied Intelligence, Introduction to Autonomous Driving
 
 <!-- # 💬 Invited Talks

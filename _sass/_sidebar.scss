@@ -47,6 +47,17 @@
   img {
     width: 100%;
   }
+
+  #clustrmap_container {
+    display: none;
+
+    @include breakpoint($large) {
+      display: block;
+      width: 200px;
+      height: 200px;
+      margin: 10px auto 0;
+    }
+  }
 }
 
 .sidebar__right {
